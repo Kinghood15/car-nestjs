@@ -1,9 +1,9 @@
-import { from } from "rxjs";
 import { Document } from 'mongoose';
 
 export interface ICar extends Document {
-  readonly id: number;
-  readonly brand: string;
-  readonly color: string;
-  readonly model: string;
+   brand: string;
+   color: string;
+   model: string;
+   make:string;
+   year:number;
 }
